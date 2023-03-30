@@ -8,8 +8,13 @@
     <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
     <property name="connection.username">root</property>
     <property name="connection.password">123456789</property>
-    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.hbm2ddl.auto">update/create_drop/validate/create</property>
 <!--    <property name="hibernate.show_sql">true</property>-->
+      <!--  connection.fullsize
+            mysql.dialect
+            cache provider
+            
+-->
 
     <mapping class="com.manasseh.ljsa.model.MatiereEntity"/>
     <mapping class="com.manasseh.ljsa.model.EtudiantsEntity"/>
